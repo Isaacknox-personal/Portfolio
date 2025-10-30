@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Isaac Knox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Isaac Knox</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="why-me.html">Why Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>About Me</h2>
+    <p>I’m a student at Tech Valley High School with a strong interest in mechanical systems, outdoor education, and hands-on problem-solving. I’m currently a PSIA–AASI certified ski, snowboard, and telemark instructor at Stratton Mountain Resort, where I’ve spent the past three years developing both technical and leadership skills in teaching, collaboration, and safety.</p>
+    <p>My experience on the mountain has taught me how to think critically in fast-paced environments, communicate effectively with diverse groups, and lead by example. Each season, I’ve expanded my certifications and taken on new challenges, from instructing multiple disciplines to assisting in operational support across departments.</p>
+    <p>Outside of the resort, I’m a Shell Technician and team member at the Albany Rowing Center, where I maintain rowing shells and equipment while continuing to train and compete. I’m also certified in lifeguarding and Basic Life Support (BLS) through the American Red Cross, reflecting my commitment to safety and responsibility in every environment.</p>
+    <p>At school, I enjoy applying my technical curiosity to projects involving fabrication. I’m always looking for opportunities that combine engineering, teaching, and teamwork — fields where I can keep learning by doing and contribute to solving real-world problems.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Isaac Knox</p>
+  </footer>
+</body>
+</html>

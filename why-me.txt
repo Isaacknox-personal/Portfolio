@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Me | Isaac Knox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Isaac Knox</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="why-me.html" class="active">Why Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <h2>Why Me</h2>
+    <p>I bring a mix of technical curiosity, real-world teaching experience, and safety-focused leadership. Whether I’m teaching on the slopes, maintaining rowing shells, or designing solutions in the shop, I approach every challenge with focus, patience, and teamwork.</p>
+    <p>My goal is to continue learning through hands-on experiences — connecting engineering, outdoor education, and community leadership to make a positive impact wherever I work.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Isaac Knox</p>
+  </footer>
+</body>
+</html>

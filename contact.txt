@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect | Isaac Knox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Isaac Knox</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="whyme.html">Why Me</a></li>
+        <li><a href="contact.html" class="active">Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <div class="box">
+      <h2>Connect with Me</h2>
+      <p>Here are a few places you can connect or follow my work:</p>
+
+      <div class="socials-grid">
+        <!-- LinkedIn -->
+        <div class="social-card">
+          <div class="badge-base LI-profile-badge"
+               data-locale="en_US"
+               data-size="medium"
+               data-theme="light"
+               data-type="VERTICAL"
+               data-vanity="isaac-knox-5004aa336"
+               data-version="v1">
+            <a class="badge-base__link LI-simple-link"
+               href="https://www.linkedin.com/in/isaac-knox-5004aa336?trk=profile-badge">
+              Isaac Knox
+            </a>
+          </div>
+        </div>
+
+        <!-- Instagram (styled like LinkedIn card) -->
+        <div class="social-card insta-card">
+          <img src="https://via.placeholder.com/100"
+               alt="Isaac Knox Instagram" class="insta-pic">
+          <h3>@isaac.knox</h3>
+          <p>Outdoor adventures and behind-the-scenes moments.</p>
+          <a href="https://www.instagram.com/isaac.knox" target="_blank" class="insta-btn">
+            Follow on Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Isaac Knox | All Rights Reserved</p>
+  </footer>
+
+  <!-- LinkedIn Script -->
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</body>
+</html>

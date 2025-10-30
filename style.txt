@@ -1,0 +1,177 @@
+/* Google Font: Oxygen */
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header + Navbar */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+/* Main Content Wrapper */
+.content {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+/* Boxed Section */
+.box {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #111;
+  margin-top: 0;
+}
+
+/* Paragraph */
+p {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #0077b5;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+  background-color: #ffffff;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+  margin-top: 2rem;
+}
+
+/* --- Social Cards --- */
+.socials-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  width: 320px;
+  transition: all 0.3s ease;
+}
+
+.social-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* LinkedIn card */
+.linkedin-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Instagram card */
+.insta-card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #e1306c;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+.insta-card h3 {
+  color: #e1306c;
+  margin: 0.4rem 0;
+}
+
+.insta-card p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.insta-btn {
+  background-color: #e1306c;
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.insta-btn:hover {
+  background-color: #c12059;
+  box-shadow: 0 4px 15px rgba(225, 48, 108, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .socials-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-card {
+    width: 90%;
+  }
+}
